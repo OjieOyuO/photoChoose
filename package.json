@@ -1,12 +1,12 @@
 {
-  "name": "photoChoose",
+  "name": "photo-choose",
   "description": "照片上传",
-  "version": "1.0.0",
-  "author": "叶福林 <fl.ye@dface.cn>",
+  "version": "1.0.3",
+  "author": "叶福林 <793500743@qq.com>",
   "license": "MIT",
   "private": false,
+  "main": "./src/index.js",
   "files": [
-    "dist",
     "src"
   ],
   "repository": {

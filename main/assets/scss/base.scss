@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*, :after, :before {
+  box-sizing: border-box;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+html * {
+  outline: 0;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  font-family: PingFangSC-Regular, Helvetica Neue, Microsoft YaHei, "微软雅黑", sans-serif, Helvetica, sans-serif;
+}
+
+button, a {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+  -webkit-touch-callout: none
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+hr {
+  height: 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+input {
+  line-height: normal;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  border: none;
+  user-select: text;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ACACAC;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ACACAC;
+}
+
+textarea {
+  overflow: auto;
+  user-select: text;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0;
+}
+
+ul, ol, li, dl, dd {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, b, em, i {
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
