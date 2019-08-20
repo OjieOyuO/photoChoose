@@ -1,8 +1,8 @@
 {
   "name": "photo-choose",
   "description": "照片上传",
-  "version": "1.0.3",
-  "author": "叶福林 <793500743@qq.com>",
+  "version": "1.0.8",
+  "author": "叶福林 <fl.ye@dface.vip>",
   "license": "MIT",
   "private": false,
   "main": "./src/index.js",
@@ -18,7 +18,6 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
     "vue": "^2.5.11"
   },
   "browserslist": [

@@ -8,3 +8,11 @@ new Vue({
     components: { App },
     template: '<App/>'
 })
+
+// package.json暂存
+/*
+"repository": {
+    "type": "git",
+    "url": "https://github.com/OjieOyuO/photoChoose.git"
+  },
+*/

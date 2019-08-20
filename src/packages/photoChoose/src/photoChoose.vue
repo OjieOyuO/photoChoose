@@ -1,11 +1,11 @@
 <template>
   <section>
     <div class="main-container">
-      <label class="dp" :class="initClass[0]" v-if="mediaType === 1" for="append-img"></label>
-      <label class="dp" :class="initClass[0]" v-if="mediaType === 2 && isAndroid" for="append-img"></label>
-      <label class="dp" :class="initClass[1]" v-if="mediaType === 2 && isAndroid" for="append-video"></label>
-      <label class="dp" :class="initClass[0]" v-if="mediaType === 2 && !isAndroid" for="append-imgVideo"></label>
-      <label class="dp" :class="initClass[0]" v-if="mediaType === 3" for="append-video"></label>
+      <label :class="initClass[0] || 'dp'" v-if="mediaType === 1" for="append-img"></label>
+      <label :class="initClass[0] || 'dp'" v-if="mediaType === 2 && isAndroid" for="append-img"></label>
+      <label :class="initClass[1] || 'dp'" v-if="mediaType === 2 && isAndroid" for="append-video"></label>
+      <label :class="initClass[0] || 'dp'" v-if="mediaType === 2 && !isAndroid" for="append-imgVideo"></label>
+      <label :class="initClass[0] || 'dp'" v-if="mediaType === 3" for="append-video"></label>
     </div>
     <div class="else-container">
       <input @change="choosePhoto" type="file" id="append-img"
@@ -98,7 +98,10 @@ export default {
 }
 </script>
 <style  scoped>
-  label{
+  .main-container{
+    font-size: 0;
+  }
+  .dp{
     display: inline-block;
     width: 100px;
     height: 100px;
