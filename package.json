@@ -1,7 +1,7 @@
 {
-  "name": "photo-choose",
+  "name": "dface-ui",
   "description": "照片上传",
-  "version": "1.0.8",
+  "version": "0.0.1",
   "author": "叶福林 <fl.ye@dface.vip>",
   "license": "MIT",
   "private": false,
@@ -9,10 +9,6 @@
   "files": [
     "src"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OjieOyuO/photoChoose.git"
-  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
